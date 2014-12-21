@@ -1,7 +1,17 @@
 WAAOffset
 ===========
 
-A simple offset (or constant value) as audio signal for Web Audio API.
+A simple offset node (or constant value) for Web Audio API.
+
+
+Installation
+-------------
+
+You can grab the latest browser build from [dist/](https://github.com/sebpiq/WAAOffset/blob/master/dist/WAAOffset-latest.js) or install through npm with `npm install waaoffset` 
+
+
+Usage
+-------
 
 Create :
 
