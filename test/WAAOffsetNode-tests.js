@@ -1,13 +1,13 @@
 var utils = require('waatest').utils
-  , WAAOffset = require('../index')
+  , WAAOffsetNode = require('../index')
 
-describe('WAAOffset', function() {
+describe('WAAOffsetNode', function() {
   
   it('should be 0 by default', function(done) {
     var offsetNode
     utils.expectSamples(
       function(context) {
-        offsetNode = new WAAOffset(context)
+        offsetNode = new WAAOffsetNode(context)
         offsetNode.connect(context.destination)
       },
       [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
@@ -19,7 +19,7 @@ describe('WAAOffset', function() {
     var offsetNode
     utils.expectSamples(
       function(context) {
-        offsetNode = new WAAOffset(context)
+        offsetNode = new WAAOffsetNode(context)
         offsetNode.connect(context.destination)
         offsetNode.offset.setValueAtTime(0, 0)
         offsetNode.offset.linearRampToValueAtTime(1, 1)

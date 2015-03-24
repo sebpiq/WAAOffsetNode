@@ -1,1 +1,1 @@
-require('./WAAOffset-tests')
+require('./WAAOffsetNode-tests')
