@@ -1,6 +1,6 @@
 {
   "name": "waaoffsetnode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An audio offset node for web audio API",
   "main": "index.js",
   "scripts": {    
